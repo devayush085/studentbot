@@ -43,7 +43,7 @@
 //   }
 // };
 
-
+// controllers/chat.controller.js
 import Message from "../models/Message.js";
 import { processMessage } from "../services/chat.service.js";
 

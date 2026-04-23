@@ -1,3 +1,5 @@
+// handlers/class.handler.js
+
 import Student from "../models/Student.js";
 import Subject from "../models/Subject.js";
 import ClassSchedule from "../models/ClassSchedule.js";
