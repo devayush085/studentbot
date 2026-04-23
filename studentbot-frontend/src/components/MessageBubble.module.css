@@ -1,0 +1,76 @@
+/* components/MessageBubble.module.css */
+.row {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  animation: fadeUp 0.25s ease both;
+  margin-bottom: 6px;
+}
+
+.rowUser {
+  flex-direction: row-reverse;
+}
+
+.rowBot {
+  flex-direction: row;
+}
+
+.botAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-bottom: 2px;
+}
+
+.bubble {
+  max-width: 68%;
+  padding: 12px 16px;
+  border-radius: var(--radius-lg);
+  position: relative;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.userBubble {
+  background: var(--user-bubble);
+  border: 1px solid rgba(108, 99, 255, 0.25);
+  border-bottom-right-radius: 4px;
+}
+
+.botBubble {
+  background: var(--bot-bubble);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 4px;
+}
+
+.errorBubble {
+  border-color: rgba(255, 92, 124, 0.3);
+  background: rgba(255, 92, 124, 0.05);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+
+.time {
+  display: block;
+  font-size: 10.5px;
+  color: var(--text-muted);
+  margin-top: 6px;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .bubble {
+    max-width: 85%;
+  }
+}

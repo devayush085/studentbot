@@ -1,0 +1,41 @@
+/* components/TypingIndicator.module.css */
+.row {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  animation: fadeUp 0.2s ease both;
+  margin-bottom: 6px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.bubble {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bot-bubble);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  border-bottom-left-radius: 4px;
+  padding: 14px 18px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  display: inline-block;
+  animation: pulse 1.2s ease-in-out infinite;
+}
