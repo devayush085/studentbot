@@ -1,4 +1,4 @@
-// ✅ handlers/index.js
+//handlers/index.js
 export { marksHandler } from "./marks.handler.js";
 export { attendanceHandler } from "./attendance.handler.js";
 export { staffHandler } from "./staff.handler.js";
