@@ -169,7 +169,7 @@ const [
   sSimran, sHarish, sTanvi, sGaurav, sPallavi
 ] = students;
 
-console.log("✅ Students inserted");
+console.log("Students inserted");
 
 // ─────────────────────────────────────────────────────────
 // 8. MARKS
