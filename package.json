@@ -1,0 +1,27 @@
+{
+  "name": "studentbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "ayush kumar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.26.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.12.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.19.2",
+    "morgan": "^1.10.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.10"
+  }
+}
